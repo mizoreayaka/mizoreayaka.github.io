@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Load</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Load</h2>
+        <form id="loginForm">
+            <div class="input-group">
+                <label for="username">用户名:</label>
+                <input type="text" id="username" name="username" required>
+                <span class="error-message" id="usernameError"></span>
+            </div>
+            
+            <div class="input-group">
+                <label for="password">密码:</label>
+                <input type="password" id="password" name="password" required>
+                <span class="error-message" id="passwordError"></span>
+            </div>
+            
+            <button type="submit">登录</button>
+        </form>
+        <div id="generalError" class="error-message"></div>
+    </div>
+
+    <script src="js/auth.js"></script>
+</body>
+</html>
